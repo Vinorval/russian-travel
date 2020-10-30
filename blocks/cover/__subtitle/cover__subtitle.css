@@ -3,9 +3,12 @@
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    line-height: 22px;
+    line-height: 122%;
     color: white;
     text-align: center;
     margin: 0;
     padding-top: 32px;
+    width: 30.406%;
+    position: relative;
+    z-index: 1;
 }

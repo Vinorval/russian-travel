@@ -7,3 +7,8 @@
     font-size: 18px;
     line-height: 22px;
 }
+
+.website__link:hover {
+    color: #FFFFFF;
+    opacity: 0.8;
+}

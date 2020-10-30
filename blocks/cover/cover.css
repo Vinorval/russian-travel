@@ -1,7 +1,35 @@
 .cover {
-    width: 90%;
-    padding-top: 92px;
+    width: 92.5%;
     margin: auto;
+    margin-top: 92px;
+    min-height: 740px;
+    text-decoration: none;
     background-image: url(../../image/__background.jpg);
     background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.cover::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #2A2C2F;
+    opacity: 0.3;
+    transform: opacity 0.25s ease;
+}
+
+.cover:hover::before {
+    background-color: #2A2C2F;
+    opacity: 0.8;
+    ;
 }

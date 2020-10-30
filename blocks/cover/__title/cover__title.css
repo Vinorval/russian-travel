@@ -3,8 +3,11 @@
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
-    line-height: 76px;
+    line-height: 106%;
     color: white;
+    width: 47.298%;
     text-align: center;
     margin: 0;
+    position: relative;
+    z-index: 1;
 }
