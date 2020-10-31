@@ -14,3 +14,16 @@
         width: 17.026%;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .lead__caption {
+        width: 20.573%;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__caption {
+        width: 49.375%;
+    }
+}

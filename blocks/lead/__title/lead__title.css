@@ -14,3 +14,17 @@
     width: 77.587%;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .lead__title {
+    width: 93.75%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__title {
+    width: 90%;
+    font-size: 40px;
+    line-height: 110%;
+  }
+}

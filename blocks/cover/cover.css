@@ -36,6 +36,21 @@
 
 @media screen and (max-width: 1024px) {
     .cover {
-        width: 100%
+        width: 100%;
+        min-height: 640px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        min-height: 480px;
+        margin-top: 90px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover {
+        margin-top: 66px;
+        min-height: 200px;
     }
 }

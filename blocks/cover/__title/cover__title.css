@@ -17,3 +17,17 @@
         width: 54.688%;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .cover__title {
+        width: 72.917%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__title {
+        width: 70%;
+        font-size: 32px;
+        line-height: 109%;
+    }
+}
