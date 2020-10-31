@@ -12,3 +12,9 @@
     position: relative;
     z-index: 1;
 }
+
+@media screen and (max-width: 1024px) {
+    .cover__subtitle {
+        width: 35.157%;
+    }
+}

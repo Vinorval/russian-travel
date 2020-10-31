@@ -2,3 +2,10 @@
     padding-right: 40px;
     padding-top: 48px;
 }
+
+@media screen and (max-width: 1024px) {
+    .place__image {
+        padding-right: 32px;
+        width: 440px;
+    }
+}

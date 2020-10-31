@@ -8,3 +8,7 @@
     font-size: 18px;
     line-height: 163%;
 }
+
+.place__paragraph:last-of-type {
+    padding: 0;
+}

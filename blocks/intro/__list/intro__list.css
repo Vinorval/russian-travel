@@ -9,3 +9,9 @@
     font-size: 12px;
     line-height: 150%;
 }
+
+@media screen and (max-width: 1024px) {
+    .intro__list {
+        width: 74.354%;
+    }
+}

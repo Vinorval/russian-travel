@@ -8,3 +8,9 @@
     font-size: 72px;
     line-height: 76px;
 }
+
+@media screen and (max-width: 1024px) {
+    .place__title {
+        padding-right: 32px;
+    }
+}

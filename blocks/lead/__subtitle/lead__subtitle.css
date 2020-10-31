@@ -9,3 +9,9 @@
     line-height: 120%;
     width: 65.041%;
 }
+
+@media screen and (max-width: 1024px) {
+    .lead__subtitle {
+        width: 68.966%;
+    }
+}

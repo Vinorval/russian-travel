@@ -6,3 +6,9 @@
     flex-direction: column;
     align-content: center;
 }
+
+@media screen and (max-width: 1024px) {
+    .lead {
+        width: 90.625%;
+    }
+}
