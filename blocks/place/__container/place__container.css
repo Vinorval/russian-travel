@@ -1,21 +1,23 @@
 .place__container {
-    padding-right: 40px;
+    padding-right: 0;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 768px) {
+    .place__container {
+        padding-bottom: 48px;
+        display: flex;
+        align-items: flex-end;
+    }
+}
+
+@media screen and (min-width: 1024px) {
     .place__container {
         padding-right: 32px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 1280px) {
     .place__container {
-        padding-right: 28px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .place__container {
-        padding-right: 0;
+        padding-right: 40px;
     }
 }

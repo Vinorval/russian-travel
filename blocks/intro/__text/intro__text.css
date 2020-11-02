@@ -1,7 +1,7 @@
 .intro__text {
     margin: 0;
     padding-top: 40px;
-    width: 70.122%;
+    width: 100%;
     color: white;
     font-family: Inter;
     font-style: normal;
@@ -10,14 +10,14 @@
     line-height: 163%;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
     .intro__text {
         width: 74.354%;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 1280px) {
     .intro__text {
-        width: 100%;
+        width: 70.122%;
     }
 }

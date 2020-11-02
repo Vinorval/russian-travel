@@ -1,55 +1,23 @@
 .cover {
-    width: 92.5%;
+    width: 100%;
     margin: auto;
-    margin-top: 92px;
-    min-height: 740px;
-    text-decoration: none;
-    background-image: url(../../image/__background.jpg);
-    background-size: cover;
-    background-position: center;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+    margin-top: 66px;
 }
 
-.cover::before {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: #2A2C2F;
-    opacity: 0.3;
-    transform: opacity 0.25s ease;
-}
-
-.cover:hover::before {
-    background-color: #2A2C2F;
-    opacity: 0.8;
-}
-
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 768px) {
     .cover {
-        width: 100%;
-        min-height: 640px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .cover {
-        min-height: 480px;
         margin-top: 90px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 1024px) {
     .cover {
-        margin-top: 66px;
-        min-height: 200px;
+        margin-top: 92px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .cover {
+        width: 92.5%;
     }
 }

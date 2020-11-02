@@ -1,29 +1,29 @@
 .intro__title {
     margin: 0;
-    width: 70.122%;
+    width: 100%;
     color: white;
     font-family: Inter;
-    font-style: normal;
     font-weight: 900;
-    font-size: 54px;
-    line-height: 107%;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 109%;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 768px) {
+    .intro__title {
+        font-size: 54px;
+        line-height: 107%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
     .intro__title {
         width: 74.354%;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 1280px) {
     .intro__title {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .intro__title {
-        font-size: 32px;
-        line-height: 109%;
+        width: 70.122%;
     }
 }

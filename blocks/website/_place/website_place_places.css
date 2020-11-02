@@ -1,9 +1,0 @@
-.website_place_places {
-    padding-top: 106px;
-}
-
-@media screen and (max-width: 768px) {
-    .website_place_places {
-        padding-top: 46px;
-    }
-}
